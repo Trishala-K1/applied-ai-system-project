@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Neon Pulse,Circuit Drop,electronic,energetic,0.88,140,0.72,0.90,0.08
+12,Golden Hour,Marcus Waves,hip-hop,confident,0.70,95,0.78,0.85,0.15
+13,Rain on Glass,Clara Voss,classical,melancholic,0.25,68,0.44,0.30,0.95
+14,Dusty Roads,Hank Canyon,country,nostalgic,0.50,104,0.66,0.65,0.80
+15,Iron Fist,Shredder,metal,intense,0.95,180,0.32,0.55,0.05
+16,Velvet Smoke,Aria Blue,r&b,romantic,0.55,88,0.80,0.70,0.40
+17,Island Drift,Zara Roots,reggae,relaxed,0.48,76,0.75,0.72,0.60
+18,Canopy Song,Forest Pines,folk,peaceful,0.32,90,0.68,0.50,0.88
+19,Ritmo Caliente,Los Fuego,latin,energetic,0.80,128,0.87,0.92,0.20
+20,Midnight Blues,Ray Hollow,blues,moody,0.45,85,0.58,0.55,0.70
