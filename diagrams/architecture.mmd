@@ -1,0 +1,12 @@
+flowchart TD
+    A[User Input: natural language request] --> B[Planner LLM call: parses request into UserProfile + confidence score]
+    B --> C[Act: existing Recommender.recommend_songs scores the catalog]
+    C --> D{Checker: rule-based validation, no LLM call}
+    D -- "fails: thin_margin, no_mood_coverage, or weak_overall_matches" --> E[Reviser LLM call: proposes adjusted profile using catalog vocabulary]
+    E --> C
+    D -- "passes, or retry limit reached" --> F[Explainer LLM call: grounded natural-language summary of final picks]
+    F --> G[Output: top-k songs + explanation + full trace]
+    C -.appends to.-> H[(logs/agent_traces.jsonl)]
+    D -.appends to.-> H
+    E -.appends to.-> H
+    H --> I[Human reviewer inspects trace for reliability evidence]

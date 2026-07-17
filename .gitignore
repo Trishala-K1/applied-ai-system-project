@@ -13,3 +13,9 @@ venv/
 
 # Pytest cache
 .pytest_cache/
+
+# Secrets
+.env
+
+# Agent runtime logs (copy relevant excerpts into README before submitting)
+logs/*.jsonl
